@@ -28,7 +28,7 @@ html {
         cursor: pointer;
         background-color: transparent;
         color: #111;
-        position: absolute;
+        position: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
