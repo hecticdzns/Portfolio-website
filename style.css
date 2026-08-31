@@ -707,10 +707,10 @@ a {
    MOBILE
 ========================= */
 
-@media (max-width: 760px) {
+@media (min-width: 320px) and (max-width: 760px) {
     .theme-toggle {
   position: fixed;
-  top: 730px;
+  top: 690px;
   right: 12px;
   z-index: 1000;
 }
