@@ -254,6 +254,7 @@ a {
   }
 }
 @keyframes opacity {
+  0%,
   99% {
     opacity: 100;
   }
@@ -765,6 +766,65 @@ a {
   .hero {
     padding: 70px 20px 60px;
   }
+  .hero-name {
+  margin: 18px 0 6px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+
+  font-size: clamp(40px, 7vw, 76px);
+  line-height: 1.02;
+
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1s ease forwards;
+}
+@keyframes typing {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0% 0 0);
+  }
+}
+.cursor-reveal {
+  width: 2px;
+  height: 2.7em;
+  background-color:#111;
+  position: absolute;
+  top: 180px;
+  
+
+}
+.cursor-reveal {
+  -webkit-animation: reveal .65s ease forwards, blink 0.8s infinite, opacity .7s ease forwards;
+  
+}
+@keyframes blink {
+    0%, 100% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: rgb(15 23 42);
+    }
+}
+@keyframes reveal  {
+  0% {
+    transform: translateX(0px)
+  }
+  100% {
+    transform: translateX(230px)
+  }
+}
+@keyframes opacity {
+  0%,
+  99% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
   .section {
     padding: 50px 20px;
