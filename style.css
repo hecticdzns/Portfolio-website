@@ -24,11 +24,9 @@ html {
        
         width: 45px;
         height: 45px;
-        border-radius: 50%;
         border: none;
         cursor: pointer;
-        
-        background: #ffffff;
+        background-color: transparent;
         color: #111;
         position: absolute;
         display: flex;
@@ -50,9 +48,9 @@ html {
       }
 
       body.dark-theme #theme-toggle {
-        background: #222;
+        background-color: transparent;
         color: #ffd43b;
-        border: 1px solid #ffd43b;
+       
       }
 body.dark-theme {
   --bg: #111111;
@@ -710,6 +708,13 @@ a {
 ========================= */
 
 @media (max-width: 760px) {
+    .theme-toggle {
+  position: fixed;
+  top: 730px;
+  right: 12px;
+  z-index: 1000;
+}
+
   .nav {
     padding: 16px 20px;
   }
