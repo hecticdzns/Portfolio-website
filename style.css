@@ -762,7 +762,19 @@ a {
   .nav-links {
     display: none;
   }
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 
+  color: var(--accent);
+  transform: translateY(12px);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
   .hero {
     padding: 70px 20px 60px;
   }
@@ -865,4 +877,29 @@ a {
   .hero-name {
     white-space: normal;
   }
+  .about-list {
+  list-style: none;
+  
+  border-top: 1px solid var(--line);
+}
+
+.about-list li {
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(-22px);
+  padding: 13px 0;
+
+  border-bottom: 1px solid var(--line);
+
+  font-size: 13.5px;
+}
+
+.about-list span:first-child {
+  color: var(--muted);
+
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11.5px;
+}
+#meri-aukatsabaharkidegree {
+  transform: translateX(55px);}
 }
