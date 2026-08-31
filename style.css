@@ -797,7 +797,7 @@ a {
 
 }
 .cursor-reveal {
-  -webkit-animation: reveal .65s ease forwards, blink 0.8s infinite, opacity .7s ease forwards;
+  -webkit-animation: reveal .5s ease forwards, blink 0.8s infinite, opacity .7s ease forwards;
   
 }
 @keyframes blink {
