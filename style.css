@@ -710,8 +710,8 @@ a {
 @media (min-width: 320px) and (max-width: 760px) {
     .theme-toggle {
   position: fixed;
-  top: 675px;
-  right: 12px;
+  top: 665px;
+  right: 13px;
   z-index: 1000;
 }
 
